@@ -15,3 +15,8 @@ From Introduction to biological time series data by Kyrre Lekve from Department 
 ## Projects
 
 - [Predicting Energy-Consumption](https://github.com/khsieh18/Time-Series/blob/master/Energy-Consumption-24.ipynb) by Kunlin Hsieh
+
+## References
+
+- [SARIMA](https://machinelearningmastery.com/arima-for-time-series-forecasting-with-python/)
+- [Grid Search SARIMA](https://machinelearningmastery.com/how-to-grid-search-sarima-model-hyperparameters-for-time-series-forecasting-in-python/)
