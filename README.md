@@ -16,8 +16,12 @@ From Introduction to biological time series data by Kyrre Lekve from Department 
 ## Classes being considered for study
 - [Stats 270/370 at Stanford,  A Course in Bayesian Statistics](http://statweb.stanford.edu/~sabatti/Stat370/): This class is the first of a two-quarter sequence that will serve as an introduction to the Bayesian approach to inference, its theoretical foundations and its application in diverse areas. **Contains many good references**. No course  
 
+- [Coursera: Bayesian Statistics from Santa Cruz](https://www.coursera.org/learn/bayesian-statistics): This course introduces the Bayesian approach to statistics, starting with the concept of probability and moving to the analysis of data. We will learn about the philosophy of the Bayesian approach as well as how to implement it for common types of data. We will compare the Bayesian approach to the more commonly-taught Frequentist approach, and see some of the benefits of the Bayesian approach. In particular, the Bayesian approach allows for better accounting of uncertainty, results that have more intuitive and interpretable meaning, and more explicit statements of assumptions. 
+
 
 - [Coursera: Bayesian Statistics from Duke](https://www.coursera.org/learn/bayesian): This course describes Bayesian statistics, in which one's inferences about parameters or hypotheses are updated as evidence accumulates. You will learn to use Bayes’ rule to transform prior probabilities into posterior probabilities, and be introduced to the underlying theory and perspective of the Bayesian paradigm. The course will apply Bayesian methods to several practical problems, to show end-to-end Bayesian analyses that move from framing the question to building models to eliciting prior probabilities to implementing in R (free statistical software) the final posterior distribution. NOT GREAT
+
+-[MIT: 6-041 probabilistic-systems-analysis](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010/lecture-notes/): Full course with notes and video but not all lectures are necessary.
 
 - [Time Series Analysis | Economics | MIT OpenCourseWare](https://ocw.mit.edu/courses/economics/14-384-time-series-analysis-fall-2013/lecture-notes/)
 - [DataCamp: Intro to time series analysis](https://www.datacamp.com/courses/introduction-to-time-series-analysis): Not excited about this one.
