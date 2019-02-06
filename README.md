@@ -1,5 +1,6 @@
 # tsd-study-group
 Resources for studying time series data.
+- [time-series chapter from Vincent Zoonekynd's Statistics in R](http://zoonek2.free.fr/UNIX/48_R/15.html): After an introduction, motivating the notion of a time series and giving several examples, simulated or real, we shall present the classical models of time series (AR, MA, ARMA, ARIMA, SARIMA), that provide recipes to build time series with desired properties. We shall then present spectral methods, that focus on the discovery of periodic elements in time series. The simplicity of those models makes them amenable, but they cannot describe the properties of some real-world time series: non-linear methods, built upon the classical models (GARCH) are called for. State-Space Models and the Kalman filter follow the same vein: they assume that the data is build from linear algebra, but that we do not observe everything -- there are "hidden" (unobserved, latent) variables.
 
 - [Forecasting: Principles and Practice](https://otexts.org/fpp2/) by Rob J Hyndman and George Athanasopoulos from 
 Monash University, Australia. Basic overview of time series analysis from a business economics perspective.
@@ -12,11 +13,29 @@ From Introduction to biological time series data by Kyrre Lekve from Department 
 
   -[Wikipedia on Kalman Filters](https://en.wikipedia.org/wiki/Kalman_filter) In statistics and control theory, Kalman filtering, also known as linear quadratic estimation (LQE), is an algorithm that uses a series of measurements observed over time, containing statistical noise and other inaccuracies, and produces estimates of unknown variables that tend to be more accurate than those based on a single measurement alone, by estimating a joint probability distribution over the variables for each timeframe. The filter is named after Rudolf E. Kálmán, one of the primary developers of its theory.
 
+## Classes being considered for study
+- [Stats 270/370 at Stanford,  A Course in Bayesian Statistics](http://statweb.stanford.edu/~sabatti/Stat370/): This class is the first of a two-quarter sequence that will serve as an introduction to the Bayesian approach to inference, its theoretical foundations and its application in diverse areas. **Contains many good references**. No course  
+
+
+- [Coursera: Bayesian Statistics from Duke](https://www.coursera.org/learn/bayesian): This course describes Bayesian statistics, in which one's inferences about parameters or hypotheses are updated as evidence accumulates. You will learn to use Bayes’ rule to transform prior probabilities into posterior probabilities, and be introduced to the underlying theory and perspective of the Bayesian paradigm. The course will apply Bayesian methods to several practical problems, to show end-to-end Bayesian analyses that move from framing the question to building models to eliciting prior probabilities to implementing in R (free statistical software) the final posterior distribution. NOT GREAT
+
+- [Time Series Analysis | Economics | MIT OpenCourseWare](https://ocw.mit.edu/courses/economics/14-384-time-series-analysis-fall-2013/lecture-notes/)
+- [DataCamp: Intro to time series analysis](https://www.datacamp.com/courses/introduction-to-time-series-analysis): Not excited about this one.
+
+- [time-series-forecasting](https://www.udacity.com/course/time-series-forecasting--ud980)
+
+## Bayesian Statistics
+-START HERE: [Ben Labert's Bayesian Statistics](https://www.youtube.com/playlist?list=PLwJRxp3blEvZ8AKMXOy0fc0cqT61GsKCG): This course aims to provide a core understanding of Bayesian statistics  that is grounded in mathematical theory, yet friendly to the less mathematically-minded of persons. It aims to focus on the intuitive results of Bayesian theory rather than dwell on the mathematical minutiae.
+  -[ben-lambert.com/bayesian](https://ben-lambert.com/bayesian/): "If you don’t know, Bayesian statistics is an analytical framework increasingly used in research in the social, physical and biological sciences. Specifically Bayesian statistics uses the language of probability to express our uncertainty about scientific hypotheses. A ‘hypothesis’ is an explanation about the state of the world that may be true or false; to ensure that a hypothesis is ‘scientific’ it must be testable with data. Accordingly, Bayesian statistics uses data we collect from the world to update our view on scientific hypotheses."
+
 ## Projects
 
 - [Predicting Energy-Consumption](https://github.com/khsieh18/Time-Series/blob/master/Energy-Consumption-24.ipynb) by Kunlin Hsieh
 
 ## References
+- [TDS: Time-series analysis in python](https://towardsdatascience.com/time-series-analysis-in-python-an-introduction-70d5a5b1d52a): One powerful yet simple method for analyzing and predicting periodic data is the additive model. The idea is straightforward: represent a time-series as a combination of patterns at different scales such as daily, weekly, seasonally, and yearly, along with an overall trend. Your energy use might rise in the summer and decrease in the winter, but have an overall decreasing trend as you increase the energy efficiency of your home. An additive model can show us both patterns/trends and make predictions based on these observations.
 
 - [SARIMA](https://machinelearningmastery.com/arima-for-time-series-forecasting-with-python/)
-- [Grid Search SARIMA](https://machinelearningmastery.com/how-to-grid-search-sarima-model-hyperparameters-for-time-series-forecasting-in-python/)
+- [Grid Search SARIMA](https://machinelearningmastery.com/how-to-grid-search-sarima-model-hyperparameters-for-time-series-forecasting-in-python/) 
+- [Multiple Data (Time Series) Streams Clustering](https://petolau.github.io/Multiple-data-streams-clustering-in-r/)
+- https://petolau.github.io/Ensemble-of-trees-for-forecasting-time-series/)
