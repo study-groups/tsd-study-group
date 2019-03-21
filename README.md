@@ -12,6 +12,8 @@ From Introduction to biological time series data by Kyrre Lekve from Department 
 
 
   - [Wikipedia on Kalman Filters](https://en.wikipedia.org/wiki/Kalman_filter) In statistics and control theory, Kalman filtering, also known as linear quadratic estimation (LQE), is an algorithm that uses a series of measurements observed over time, containing statistical noise and other inaccuracies, and produces estimates of unknown variables that tend to be more accurate than those based on a single measurement alone, by estimating a joint probability distribution over the variables for each timeframe. The filter is named after Rudolf E. Kálmán, one of the primary developers of its theory.
+  
+  - [Time sequence prediction using Pytorch](https://github.com/pytorch/examples/tree/master/time_sequence_prediction) This is a toy example for beginners to start with. It is helpful for learning both pytorch and time sequence prediction. Two LSTMCell units are used in this example to learn some sine wave signals starting at different phases. After learning the sine waves, the network tries to predict the signal values in the future.
 
 ## Classes being considered for study
 - [Stats 270/370 at Stanford,  A Course in Bayesian Statistics](http://statweb.stanford.edu/~sabatti/Stat370/): This class is the first of a two-quarter sequence that will serve as an introduction to the Bayesian approach to inference, its theoretical foundations and its application in diverse areas. **Contains many good references**. No course  
