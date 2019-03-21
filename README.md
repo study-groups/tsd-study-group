@@ -10,6 +10,16 @@ Recent ecological SSMs are often complex, with a large number of parameters to e
 simulation study, we show that even simple linear Gaussian SSMs can suffer from parameter- and stateestimation
 problems. We demonstrate that these problems occur primarily when measurement error
 is larger than biological stochasticity, the condition that often drives ecologists to use SSMs
+  -[Gaussian Processes for State Space Models and Change Point Detection](http://mlg.eng.cam.ac.uk/pub/pdf/Tur11.pdf). Great overview  of time-series data through the state-space lens controlled by stochastic sampling. "This thesis details several applications of Gaussian processes (GPs) for
+enhanced time series modeling. We first cover different approaches for
+using Gaussian processes in time series problems. These are extended
+to the state space approach to time series in two different problems.
+We also combine Gaussian processes and Bayesian online change point
+detection (BOCPD) to increase the generality of the Gaussian process
+time series methods. These methodologies are evaluated on predictive
+performance on six real world data sets, which include three environmental
+data sets, one financial, one biological, and one from industrial
+well drilling."
 
 
 
