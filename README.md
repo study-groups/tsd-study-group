@@ -1,5 +1,19 @@
 # tsd-study-group
 Resources for studying time series data.
+- [State-space representation](https://en.wikipedia.org/wiki/State-space_representation):  A state-space representation is a mathematical model of a physical system as a set of input, output and state variables related by first-order differential equations or difference equations. State variables are variables whose values evolve through time in a way that depends on the values they have at any given time and also depends on the externally imposed values of input variables. Output variables’ values depend on the values of the state variables.
+  - [State-space models’ dirty little secrets: even simple linear Gaussian
+models can have estimation problems](https://www.nature.com/articles/srep26677): From Nature magazine. State-space models (SSMs) are increasingly used in ecology to model time-series such as animal
+movement paths and population dynamics. This type of hierarchical model is often structured to
+account for two levels of variability: biological stochasticity and measurement error. SSMs are
+flexible. They can model linear and nonlinear processes using a variety of statistical distributions.
+Recent ecological SSMs are often complex, with a large number of parameters to estimate. Through a
+simulation study, we show that even simple linear Gaussian SSMs can suffer from parameter- and stateestimation
+problems. We demonstrate that these problems occur primarily when measurement error
+is larger than biological stochasticity, the condition that often drives ecologists to use SSMs
+
+
+
+
 - [time-series chapter from Vincent Zoonekynd's Statistics in R](http://zoonek2.free.fr/UNIX/48_R/15.html): After an introduction, motivating the notion of a time series and giving several examples, simulated or real, we shall present the classical models of time series (AR, MA, ARMA, ARIMA, SARIMA), that provide recipes to build time series with desired properties. We shall then present spectral methods, that focus on the discovery of periodic elements in time series. The simplicity of those models makes them amenable, but they cannot describe the properties of some real-world time series: non-linear methods, built upon the classical models (GARCH) are called for. State-Space Models and the Kalman filter follow the same vein: they assume that the data is build from linear algebra, but that we do not observe everything -- there are "hidden" (unobserved, latent) variables.
 
 - [Forecasting: Principles and Practice](https://otexts.org/fpp2/) by Rob J Hyndman and George Athanasopoulos from 
