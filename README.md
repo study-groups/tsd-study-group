@@ -10,7 +10,8 @@ Recent ecological SSMs are often complex, with a large number of parameters to e
 simulation study, we show that even simple linear Gaussian SSMs can suffer from parameter- and stateestimation
 problems. We demonstrate that these problems occur primarily when measurement error
 is larger than biological stochasticity, the condition that often drives ecologists to use SSMs
-  -[Gaussian Processes for State Space Models and Change Point Detection](http://mlg.eng.cam.ac.uk/pub/pdf/Tur11.pdf). Great overview  of time-series data through the state-space lens controlled by stochastic sampling. "This thesis details several applications of Gaussian processes (GPs) for
+
+  - [Gaussian Processes for State Space Models and Change Point Detection](http://mlg.eng.cam.ac.uk/pub/pdf/Tur11.pdf). Great overview  of time-series data through the state-space lens controlled by stochastic sampling. "This thesis details several applications of Gaussian processes (GPs) for
 enhanced time series modeling. We first cover different approaches for
 using Gaussian processes in time series problems. These are extended
 to the state space approach to time series in two different problems.
@@ -21,7 +22,7 @@ performance on six real world data sets, which include three environmental
 data sets, one financial, one biological, and one from industrial
 well drilling."
 
-
+  - See also [bayesian-study-group](https://github.com/study-groups/bayesian-study-group). The bayesian-study-group is geared around the study of[Ben Lambert's Bayesian Statistics](https://www.youtube.com/playlist?list=PLwJRxp3blEvZ8AKMXOy0fc0cqT61GsKCG): This course aims to provide a core understanding of Bayesian statistics  that is grounded in mathematical theory, yet friendly to the less mathematically-minded of persons. It aims to focus on the intuitive results of Bayesian theory rather than dwell on the mathematical minutiae.
 
 
 - [time-series chapter from Vincent Zoonekynd's Statistics in R](http://zoonek2.free.fr/UNIX/48_R/15.html): After an introduction, motivating the notion of a time series and giving several examples, simulated or real, we shall present the classical models of time series (AR, MA, ARMA, ARIMA, SARIMA), that provide recipes to build time series with desired properties. We shall then present spectral methods, that focus on the discovery of periodic elements in time series. The simplicity of those models makes them amenable, but they cannot describe the properties of some real-world time series: non-linear methods, built upon the classical models (GARCH) are called for. State-Space Models and the Kalman filter follow the same vein: they assume that the data is build from linear algebra, but that we do not observe everything -- there are "hidden" (unobserved, latent) variables.
