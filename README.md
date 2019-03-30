@@ -40,6 +40,20 @@ From Introduction to biological time series data by Kyrre Lekve from Department 
   
 - [Time sequence prediction using Pytorch](https://github.com/pytorch/examples/tree/master/time_sequence_prediction) This is a toy example for beginners to start with. It is helpful for learning both pytorch and time sequence prediction. Two LSTMCell units are used in this example to learn some sine wave signals starting at different phases. After learning the sine waves, the network tries to predict the signal values in the future.
 
+## Papers
+- [MCMC For Parameter Estimation By Bayesian Approach](https://inis.iaea.org/collection/NCLCollectionStore/_Public/43/052/43052907.pdf): This article discusses the parameter estimation for dynamic
+system by a Bayesian approach associated with Markov
+Chain Monte Carlo methods (MCMC). The MCMC methods
+are powerful for approximating complex integrals, simulating
+joint distributions, and the estimation of marginal
+posterior distributions, or posterior means. The MetropolisHastings
+algorithm has been widely used in Bayesian inference
+to approximate posterior densities. Calibrating the
+proposal distribution is one of the main issues of MCMC
+simulation in order to accelerate the convergence.
+Index Terms— MCMC, Metropolis-Hastings, Bayesian
+approach, MMSE, dynamic system, parameters estimation
+
 ## Classes being considered for study
 - [Stats 270/370 at Stanford,  A Course in Bayesian Statistics](http://statweb.stanford.edu/~sabatti/Stat370/): This class is the first of a two-quarter sequence that will serve as an introduction to the Bayesian approach to inference, its theoretical foundations and its application in diverse areas. **Contains many good references**. No course  
 
