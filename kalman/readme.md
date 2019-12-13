@@ -70,6 +70,10 @@ finance.
 
 ## Python
 Let's use this:
+- [Kalman filter guide](http://greg.czerniak.info/guides/kalman1/): by Greg Czerniak. Pretty good
+ but requires using classes. Includes self-contained: 
+[kalman1.py](http://greg.czerniak.info/guides/kalman1/kalman1.py.txt)
+
 
 - [Implementation of Kalman Filter with Python Language ](https://arxiv.org/pdf/1204.0375.pdf):
 In this paper, we investigate the implementation of a Python code for a Kalman
