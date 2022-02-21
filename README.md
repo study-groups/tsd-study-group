@@ -40,6 +40,17 @@ From Introduction to biological time series data by Kyrre Lekve from Department 
   
 - [Time sequence prediction using Pytorch](https://github.com/pytorch/examples/tree/master/time_sequence_prediction) This is a toy example for beginners to start with. It is helpful for learning both pytorch and time sequence prediction. Two LSTMCell units are used in this example to learn some sine wave signals starting at different phases. After learning the sine waves, the network tries to predict the signal values in the future.
 
+## State space
+
+- [Deep State Space Models for Time Series Forecasting](https://proceedings.neurips.cc/paper/2018/hash/5cf68969fb67aa6082363a6d4e6468e2-Abstract.html): We present a novel approach to probabilistic time series forecasting that combines state space models with deep learning. By parametrizing a per-time-series linear state space model with a jointly-learned recurrent neural network, our method retains desired properties of state space models such as data efficiency and interpretability, while making use of the ability to learn complex patterns from raw data offered by deep learning approaches.
+
+
+## LSTM
+
+- [Visualising State Space Representations of LSTM Networks](https://uwe-repository.worktribe.com/preview/863257/visualising_networks.html): Emmanuel M. Smith, et. al. n this notebook we first train a small LSTM network on a basic square wave prediction task and allude to the complexities which arise whilst attempting to identify patterns in the states of LSTMs. We then train a larger LSTM network on the same problem to demonstrate how this problem is exacerbated by increasing the amount of nodes in a network. Next, we discuss the novel concept of using state space representations which allow for the visualisation and comparison of network states in a scalable manner.
+
+- [State Space LSTM Models with Particle MCMC Inference](https://arxiv.org/abs/1711.11179): Xun Zheng, et. al. Despite the strong performance, however, it lacks the nice interpretability as in state space models. In this paper, we present a way to combine the best of both worlds by introducing State Space LSTM (SSL) models that generalizes the earlier work \cite{zaheer2017latent} of combining topic models with LSTM.
+- 
 ## Papers
 - [MCMC For Parameter Estimation By Bayesian Approach](https://inis.iaea.org/collection/NCLCollectionStore/_Public/43/052/43052907.pdf): This article discusses the parameter estimation for dynamic
 system by a Bayesian approach associated with Markov
