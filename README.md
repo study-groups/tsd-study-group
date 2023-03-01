@@ -2,7 +2,7 @@
 
 ## Current focus
 
-- [Transformers in Time Series: A Survey]():
+- [Transformers in Time Series: A Survey](https://arxiv.org/abs/2202.07125):
 In this paper, we systematically review Transformer schemes for
 time series modeling by highlighting their strengths as well as
 limitations. In particular, we examine the development of time
@@ -16,6 +16,8 @@ Empirically, we perform robust analysis, model size analysis, and
 seasonal-trend decomposition analysis to study how Transformers
 perform in time series. Finally, we discuss and suggest future
 directions to provide useful research guidance.
+
+- [Analyzing Neural Time Series](https://www.youtube.com/watch?v=S_RrWZ4eXoE&list=PLn0OLiymPak2PX8sAmypP1zuPmchxvz8_&index=1): By Mike X Cohen.
 
 ## Resources for studying time series data.
 
@@ -62,7 +64,7 @@ well drilling."
 
 - [time-series chapter from Vincent Zoonekynd's Statistics in R](http://zoonek2.free.fr/UNIX/48_R/15.html): After an introduction, motivating the notion of a time series and giving several examples, simulated or real, we shall present the classical models of time series (AR, MA, ARMA, ARIMA, SARIMA), that provide recipes to build time series with desired properties. We shall then present spectral methods, that focus on the discovery of periodic elements in time series. The simplicity of those models makes them amenable, but they cannot describe the properties of some real-world time series: non-linear methods, built upon the classical models (GARCH) are called for. State-Space Models and the Kalman filter follow the same vein: they assume that the data is build from linear algebra, but that we do not observe everything -- there are "hidden" (unobserved, latent) variables.
 
-- [Forecasting: Principles and Practice](https://otexts.org/fpp2/) by Rob J Hyndman and George Athanasopoulos from 
+- [Forecasting: Principles and Practice](https://otexts.org/fpp2/) by Rob J Hyndman and George Athanasopoulos from
 Monash University, Australia. Basic overview of time series analysis from a business economics perspective.
 
 - [Lecture 10: Bayesian modelling of time series](https://www.uio.no/studier/emner/matnat/ibv/BIO4040/h03/undervisningsmateriale/Lectures/lecture10.pdf)
@@ -72,7 +74,7 @@ From Introduction to biological time series data by Kyrre Lekve from Department 
 
 
   - [Wikipedia on Kalman Filters](https://en.wikipedia.org/wiki/Kalman_filter) In statistics and control theory, Kalman filtering, also known as linear quadratic estimation (LQE), is an algorithm that uses a series of measurements observed over time, containing statistical noise and other inaccuracies, and produces estimates of unknown variables that tend to be more accurate than those based on a single measurement alone, by estimating a joint probability distribution over the variables for each timeframe. The filter is named after Rudolf E. Kálmán, one of the primary developers of its theory.
-  
+
 - [Time sequence prediction using Pytorch](https://github.com/pytorch/examples/tree/master/time_sequence_prediction) This is a toy example for beginners to start with. It is helpful for learning both pytorch and time sequence prediction. Two LSTMCell units are used in this example to learn some sine wave signals starting at different phases. After learning the sine waves, the network tries to predict the signal values in the future.
 
 ## State space
@@ -85,7 +87,7 @@ From Introduction to biological time series data by Kyrre Lekve from Department 
 - [Visualising State Space Representations of LSTM Networks](https://uwe-repository.worktribe.com/preview/863257/visualising_networks.html): Emmanuel M. Smith, et. al. n this notebook we first train a small LSTM network on a basic square wave prediction task and allude to the complexities which arise whilst attempting to identify patterns in the states of LSTMs. We then train a larger LSTM network on the same problem to demonstrate how this problem is exacerbated by increasing the amount of nodes in a network. Next, we discuss the novel concept of using state space representations which allow for the visualisation and comparison of network states in a scalable manner.
 
 - [State Space LSTM Models with Particle MCMC Inference](https://arxiv.org/abs/1711.11179): Xun Zheng, et. al. Despite the strong performance, however, it lacks the nice interpretability as in state space models. In this paper, we present a way to combine the best of both worlds by introducing State Space LSTM (SSL) models that generalizes the earlier work \cite{zaheer2017latent} of combining topic models with LSTM.
-- 
+-
 ## Papers
 - [MCMC For Parameter Estimation By Bayesian Approach](https://inis.iaea.org/collection/NCLCollectionStore/_Public/43/052/43052907.pdf): This article discusses the parameter estimation for dynamic
 system by a Bayesian approach associated with Markov
@@ -101,9 +103,9 @@ Index Terms— MCMC, Metropolis-Hastings, Bayesian
 approach, MMSE, dynamic system, parameters estimation
 
 ## Classes being considered for study
-- [Stats 270/370 at Stanford,  A Course in Bayesian Statistics](http://statweb.stanford.edu/~sabatti/Stat370/): This class is the first of a two-quarter sequence that will serve as an introduction to the Bayesian approach to inference, its theoretical foundations and its application in diverse areas. **Contains many good references**. No course  
+- [Stats 270/370 at Stanford,  A Course in Bayesian Statistics](http://statweb.stanford.edu/~sabatti/Stat370/): This class is the first of a two-quarter sequence that will serve as an introduction to the Bayesian approach to inference, its theoretical foundations and its application in diverse areas. **Contains many good references**. No course
 
-- [Coursera: Bayesian Statistics from Santa Cruz](https://www.coursera.org/learn/bayesian-statistics): This course introduces the Bayesian approach to statistics, starting with the concept of probability and moving to the analysis of data. We will learn about the philosophy of the Bayesian approach as well as how to implement it for common types of data. We will compare the Bayesian approach to the more commonly-taught Frequentist approach, and see some of the benefits of the Bayesian approach. In particular, the Bayesian approach allows for better accounting of uncertainty, results that have more intuitive and interpretable meaning, and more explicit statements of assumptions. 
+- [Coursera: Bayesian Statistics from Santa Cruz](https://www.coursera.org/learn/bayesian-statistics): This course introduces the Bayesian approach to statistics, starting with the concept of probability and moving to the analysis of data. We will learn about the philosophy of the Bayesian approach as well as how to implement it for common types of data. We will compare the Bayesian approach to the more commonly-taught Frequentist approach, and see some of the benefits of the Bayesian approach. In particular, the Bayesian approach allows for better accounting of uncertainty, results that have more intuitive and interpretable meaning, and more explicit statements of assumptions.
 
 
 - [Coursera: Bayesian Statistics from Duke](https://www.coursera.org/learn/bayesian): This course describes Bayesian statistics, in which one's inferences about parameters or hypotheses are updated as evidence accumulates. You will learn to use Bayes’ rule to transform prior probabilities into posterior probabilities, and be introduced to the underlying theory and perspective of the Bayesian paradigm. The course will apply Bayesian methods to several practical problems, to show end-to-end Bayesian analyses that move from framing the question to building models to eliciting prior probabilities to implementing in R (free statistical software) the final posterior distribution. NOT GREAT
@@ -124,6 +126,6 @@ approach, MMSE, dynamic system, parameters estimation
 - [TDS: Time-series analysis in python](https://towardsdatascience.com/time-series-analysis-in-python-an-introduction-70d5a5b1d52a): One powerful yet simple method for analyzing and predicting periodic data is the additive model. The idea is straightforward: represent a time-series as a combination of patterns at different scales such as daily, weekly, seasonally, and yearly, along with an overall trend. Your energy use might rise in the summer and decrease in the winter, but have an overall decreasing trend as you increase the energy efficiency of your home. An additive model can show us both patterns/trends and make predictions based on these observations.
 
 - [SARIMA](https://machinelearningmastery.com/arima-for-time-series-forecasting-with-python/)
-- [Grid Search SARIMA](https://machinelearningmastery.com/how-to-grid-search-sarima-model-hyperparameters-for-time-series-forecasting-in-python/) 
+- [Grid Search SARIMA](https://machinelearningmastery.com/how-to-grid-search-sarima-model-hyperparameters-for-time-series-forecasting-in-python/)
 - [Multiple Data (Time Series) Streams Clustering](https://petolau.github.io/Multiple-data-streams-clustering-in-r/)
 - https://petolau.github.io/Ensemble-of-trees-for-forecasting-time-series/)
