@@ -1,15 +1,50 @@
 # tsd-study-group
-Resources for studying time series data.
-- [State-space representation](https://en.wikipedia.org/wiki/State-space_representation):  A state-space representation is a mathematical model of a physical system as a set of input, output and state variables related by first-order differential equations or difference equations. State variables are variables whose values evolve through time in a way that depends on the values they have at any given time and also depends on the externally imposed values of input variables. Output variables’ values depend on the values of the state variables.
-  - [State-space models’ dirty little secrets: even simple linear Gaussian
-models can have estimation problems](https://www.nature.com/articles/srep26677): From Nature magazine. State-space models (SSMs) are increasingly used in ecology to model time-series such as animal
-movement paths and population dynamics. This type of hierarchical model is often structured to
-account for two levels of variability: biological stochasticity and measurement error. SSMs are
-flexible. They can model linear and nonlinear processes using a variety of statistical distributions.
-Recent ecological SSMs are often complex, with a large number of parameters to estimate. Through a
-simulation study, we show that even simple linear Gaussian SSMs can suffer from parameter- and stateestimation
-problems. We demonstrate that these problems occur primarily when measurement error
-is larger than biological stochasticity, the condition that often drives ecologists to use SSMs
+
+## Current focus
+
+- [Transformers in Time Series: A Survey]():
+In this paper, we systematically review Transformer schemes for
+time series modeling by highlighting their strengths as well as
+limitations. In particular, we examine the development of time
+series Transformers in two perspectives. From the perspective of
+network structure, we summarize the adaptations and modifications
+that have been made to Transformers in order to accommodate the
+challenges in time series analysis. From the perspective of
+applications, we categorize time series Transformers based on common
+tasks including forecasting, anomaly detection, and classification.
+Empirically, we perform robust analysis, model size analysis, and
+seasonal-trend decomposition analysis to study how Transformers
+perform in time series. Finally, we discuss and suggest future
+directions to provide useful research guidance.
+
+## Resources for studying time series data.
+
+- [State-space
+representation](https://en.wikipedia.org/wiki/State-space_representation):
+A state-space representation is a mathematical model of a physical
+system as a set of input, output and state variables related by
+first-order differential equations or difference equations. State
+variables are variables whose values evolve through time in a way
+that depends on the values they have at any given time and also
+depends on the externally imposed values of input variables. Output
+variables’ values depend on the values of the state variables.
+
+  - [State-space models’ dirty little secrets: even simple linear
+  Gaussian models can have estimation
+problems](https://www.nature.com/articles/srep26677): From Nature
+magazine. State-space models (SSMs) are increasingly used in ecology
+to model time-series such as animal movement paths and population
+dynamics. This type of hierarchical model is often structured to
+account for two levels of variability: biological stochasticity and
+measurement error. SSMs are flexible. They can model linear and
+nonlinear processes using a variety of statistical distributions.
+Recent ecological SSMs are often complex, with a large number of
+parameters to estimate. Through a simulation study, we show that
+even simple linear Gaussian SSMs can suffer from parameter- and
+stateestimation problems. We demonstrate that these problems occur
+primarily when measurement error is larger than biological
+stochasticity, the condition that often drives ecologists to use
+SSMs
 
   - [Gaussian Processes for State Space Models and Change Point Detection](http://mlg.eng.cam.ac.uk/pub/pdf/Tur11.pdf). Great overview  of time-series data through the state-space lens controlled by stochastic sampling. "This thesis details several applications of Gaussian processes (GPs) for
 enhanced time series modeling. We first cover different approaches for
