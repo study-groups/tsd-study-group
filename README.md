@@ -1,5 +1,7 @@
 # tsd-study-group
 
+Notes on time sereies data analysis with emphasis on biological signals.
+
 ## Current focus
 
 - [Transformers in Time Series: A Survey](https://arxiv.org/abs/2202.07125):
